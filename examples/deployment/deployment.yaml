@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: hello-node
-        image: hello-node:v1
+        image: muellermich/hello-node:v1
         ports:
         - containerPort: 8080
